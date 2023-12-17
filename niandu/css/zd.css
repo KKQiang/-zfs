@@ -1,0 +1,1038 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+html {
+  height: 100%;
+  font-size: calc(100vw/7.2);
+}
+body {
+  height: 100%;
+}
+.maxbox {
+  width: 100%;
+  height: 100%;
+  background: url('../image/bj.jpg') no-repeat;
+  background-position: 0 bottom;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.maxbox .yun02 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 900;
+}
+.maxbox .yun02 > img {
+  width: 100%;
+  display: block;
+}
+.maxbox .yun01 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+}
+.maxbox .yun01 > img {
+  width: 100%;
+  display: block;
+}
+.maxbox .yun03 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0.5rem;
+}
+.maxbox .yun03 > img {
+  width: 100%;
+  display: block;
+}
+.maxbox .shan {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 6.64rem;
+}
+.maxbox .shan > img {
+  width: 100%;
+  display: block;
+}
+.road-1 div:nth-child(1) {
+  width: 2rem;
+  position: absolute;
+  left: 2.6rem;
+  bottom: 0;
+  z-index: 990;
+}
+.road-1 div:nth-child(1) > img {
+  width: 100%;
+  display: block;
+}
+.road-1 div:nth-child(2) {
+  width: 1rem;
+  position: absolute;
+  left: 2.607rem;
+  bottom: -3.18rem;
+  z-index: 980;
+}
+.road-1 div:nth-child(2) > img {
+  width: 100%;
+  display: block;
+}
+.road-1 div:nth-child(3) {
+  width: 1rem;
+  position: absolute;
+  left: 2.114rem;
+  bottom: -2.891rem;
+  z-index: 970;
+}
+.road-1 div:nth-child(3) > img {
+  width: 100%;
+  display: block;
+}
+.road-1 div:nth-child(4) {
+  width: 2rem;
+  position: absolute;
+  left: 1.64rem;
+  bottom: -3.34rem;
+  z-index: 960;
+}
+.road-1 div:nth-child(4) > img {
+  width: 100%;
+  display: block;
+}
+.road-1 div:nth-child(5) {
+  width: 1.76rem;
+  position: absolute;
+  left: 1.4rem;
+  bottom: -0.306rem;
+  z-index: 950;
+}
+.road-1 div:nth-child(5) > img {
+  width: 100%;
+  display: block;
+}
+.road-1 div:nth-child(6) {
+  width: 1.76rem;
+  position: absolute;
+  left: 0.157rem;
+  bottom: 0.403rem;
+  z-index: 940;
+}
+.road-1 div:nth-child(6) > img {
+  width: 100%;
+  display: block;
+}
+.road-1 div:nth-child(7) {
+  width: 1rem;
+  position: absolute;
+  left: 0.9rem;
+  bottom: -0.06rem;
+  z-index: 930;
+}
+.road-1 div:nth-child(7) > img {
+  width: 100%;
+  display: block;
+}
+.road-1 div:nth-child(8) {
+  width: 1rem;
+  position: absolute;
+  left: 1.4rem;
+  bottom: 0.7rem;
+  z-index: 920;
+}
+.road-1 div:nth-child(8) > img {
+  width: 100%;
+  display: block;
+}
+.road-2 div:nth-child(1) {
+  width: 1.26rem;
+  position: absolute;
+  left: 0.9rem;
+  bottom: 1.435rem;
+  z-index: 910;
+}
+.road-2 div:nth-child(1) > img {
+  width: 100%;
+  display: block;
+}
+.road-2 div:nth-child(2) {
+  width: 1.26rem;
+  position: absolute;
+  left: 1.62rem;
+  bottom: 1.85rem;
+  z-index: 900;
+}
+.road-2 div:nth-child(2) > img {
+  width: 100%;
+  display: block;
+}
+.road-2 div:nth-child(3) {
+  width: 1.26rem;
+  position: absolute;
+  left: 2.36rem;
+  bottom: 2.275rem;
+  z-index: 890;
+}
+.road-2 div:nth-child(3) > img {
+  width: 100%;
+  display: block;
+}
+.road-2 div:nth-child(4) {
+  width: 1.26rem;
+  position: absolute;
+  left: 3.09rem;
+  bottom: 2.698rem;
+  z-index: 880;
+}
+.road-2 div:nth-child(4) > img {
+  width: 100%;
+  display: block;
+}
+.road-2 div:nth-child(5) {
+  width: 1rem;
+  position: absolute;
+  left: 3.84rem;
+  bottom: 2.685rem;
+  z-index: 870;
+}
+.road-2 div:nth-child(5) > img {
+  width: 100%;
+  display: block;
+}
+.road-3 div:nth-child(1) {
+  width: 1rem;
+  position: absolute;
+  left: 4.34rem;
+  bottom: 4.7rem;
+  z-index: 870;
+}
+.road-3 div:nth-child(1) > img {
+  width: 100%;
+  display: block;
+}
+.road-3 div:nth-child(2) {
+  width: 2rem;
+  position: absolute;
+  left: 3.85rem;
+  bottom: -0.06rem;
+  z-index: 880;
+}
+.road-3 div:nth-child(2) > img {
+  width: 100%;
+  display: block;
+}
+.road-3 div:nth-child(3) {
+  width: 1rem;
+  position: absolute;
+  left: 4.31rem;
+  bottom: 0.4rem;
+  z-index: 890;
+}
+.road-3 div:nth-child(3) > img {
+  width: 100%;
+  display: block;
+}
+.road-3 div:nth-child(4) {
+  width: 1rem;
+  position: absolute;
+  left: 4.78rem;
+  bottom: 0.13rem;
+  z-index: 890;
+}
+.road-3 div:nth-child(4) > img {
+  width: 100%;
+  display: block;
+}
+.road-3 div:nth-child(5) {
+  width: 1rem;
+  position: absolute;
+  left: 5.27rem;
+  bottom: 0.138rem;
+  z-index: 890;
+}
+.road-3 div:nth-child(5) > img {
+  width: 100%;
+  display: block;
+}
+.road-4 div:nth-child(1) {
+  width: 0.76rem;
+  position: absolute;
+  left: 5.01rem;
+  bottom: 2.804rem;
+  z-index: 890;
+}
+.road-4 div:nth-child(1) > img {
+  width: 100%;
+  display: block;
+}
+.road-4 div:nth-child(2) {
+  width: 1.26rem;
+  position: absolute;
+  left: 4.26rem;
+  bottom: -0.28rem;
+  z-index: 890;
+}
+.road-4 div:nth-child(2) > img {
+  width: 100%;
+  display: block;
+}
+.road-4 div:nth-child(3) {
+  width: 1.26rem;
+  position: absolute;
+  left: 3.65rem;
+  bottom: 0.24rem;
+  z-index: 980;
+}
+.road-4 div:nth-child(3) > img {
+  width: 100%;
+  display: block;
+}
+.green {
+  width: 1rem;
+  position: absolute;
+  left: 0.4rem;
+  bottom: 1.86rem;
+  z-index: 100;
+  transform: translateY(10rem);
+}
+.green > img {
+  width: 100%;
+  display: block;
+}
+.dh {
+  width: 0.68rem;
+  position: absolute;
+  left: 0.57rem;
+  bottom: 5.27rem;
+  z-index: 100;
+  transform: translateY(10rem);
+}
+.dh > img {
+  width: 100%;
+  display: block;
+  animation: min 2000ms infinite;
+}
+.ten {
+  width: 2.5rem;
+  position: absolute;
+  left: 1.1rem;
+  bottom: 2.07rem;
+  transform: translate(10rem);
+  z-index: 80;
+}
+.ten > img {
+  width: 100%;
+  display: block;
+}
+.wifi {
+  width: 1rem;
+  position: absolute;
+  left: 4.35rem;
+  bottom: 3.55rem;
+  transform: translateY(10rem);
+}
+.wifi > img {
+  width: 100%;
+  display: block;
+}
+.wf {
+  width: 0.82rem;
+  position: absolute;
+  left: 4.45rem;
+  bottom: 6.85rem;
+  transform: translateY(10rem);
+}
+.wf > img {
+  width: 100%;
+  display: block;
+  animation: min 2000ms infinite;
+}
+.red {
+  width: 1.5rem;
+  position: absolute;
+  transform: translate(10rem);
+  right: 0.1755rem;
+  bottom: 1.4rem;
+}
+.red > img {
+  width: 100%;
+  display: block;
+}
+.jin {
+  width: 1.26rem;
+  position: absolute;
+  right: 0.1755rem;
+  transform: translateY(10rem);
+  bottom: 0.2rem;
+}
+.jin > img {
+  width: 100%;
+  display: block;
+}
+.jin-2 {
+  width: 0.6rem;
+  position: absolute;
+  transform: translateY(10rem);
+  right: 0.6rem;
+  bottom: 4.23rem;
+}
+.jin-2 > img {
+  width: 100%;
+  animation: min 2000ms infinite;
+  display: block;
+}
+.left {
+  width: 1rem;
+  position: absolute;
+  transform: translate(10rem);
+  right: -0.4rem;
+  bottom: -0.45rem;
+}
+.left > img {
+  width: 100%;
+  display: block;
+}
+.mo {
+  display: flex;
+  width: 1.63rem;
+  height: 4.61rem;
+  position: absolute;
+  left: 2.17rem;
+  bottom: 0.57rem;
+  overflow: hidden;
+  transform: translate(10rem);
+  z-index: 910;
+}
+.mo > img {
+  width: 1.63rem;
+  height: 4.61rem;
+  display: block;
+  animation: mo 800ms infinite step-end;
+}
+@keyframes mo {
+  0% {
+    transform: translateX(0rem);
+  }
+  30% {
+    transform: translateX(-1.63rem);
+  }
+  60% {
+    transform: translate(-3.26rem);
+  }
+}
+.phon,
+.phon03 {
+  width: 100%;
+  height: 4.65rem;
+  display: none;
+  overflow: hidden;
+  background: url("../image/top.png") no-repeat;
+  background-size: cover;
+}
+.phon > .top,
+.phon03 > .top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 0.8rem;
+  margin-left: 1.39rem;
+  color: white;
+}
+.phon > .top > p,
+.phon03 > .top > p {
+  font-size: 0.4rem;
+  margin-right: 0.2rem;
+}
+.phon > .top > span,
+.phon03 > .top > span {
+  font-size: 0.3rem;
+}
+.phon > .bottoms,
+.phon03 > .bottoms {
+  width: 5.4rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 0.3rem;
+}
+.phon > .bottoms > img,
+.phon03 > .bottoms > img {
+  width: 0.76rem;
+  height: 0.76rem;
+  display: block;
+  margin-left: 1.05rem;
+}
+.phon > .bottoms .wz,
+.phon03 > .bottoms .wz {
+  color: white;
+  margin-left: 0.66rem;
+}
+.phon > .bottoms .wz > p,
+.phon03 > .bottoms .wz > p {
+  font-size: 0.24rem;
+}
+.phon > .tip,
+.phon03 > .tip {
+  width: 100%;
+  margin-top: 0.48rem;
+  margin-left: 3.67rem;
+  color: white;
+  font-size: 0.2rem;
+}
+.phon02 {
+  width: 100%;
+  height: 4.65rem;
+  background: url("../image/top.png") no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.phon02 > .top03 {
+  width: 3.2rem;
+  height: 0.72rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  display: flex;
+  padding: 0 0.08rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.phon02 > .top03 > span {
+  color: white;
+  font-size: 0.36rem;
+}
+.phon02 > .top02 {
+  width: 3.2rem;
+  height: 0.72rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.phon02 > .top02 > span {
+  color: white;
+  font-size: 0.65rem;
+  font-weight: bold;
+}
+.mid {
+  width: 2.56rem;
+  position: absolute;
+  left: 2.5rem;
+  bottom: 4.9rem;
+  z-index: 999;
+}
+.mid > p {
+  color: #009982;
+  letter-spacing: 0.06rem;
+  font-size: 0.35rem;
+  font-weight: 200;
+}
+.jt {
+  width: 100%;
+  height: 1.65rem;
+  overflow: hidden;
+  position: absolute;
+  left: 0rem;
+  bottom: 2.2rem;
+}
+.jt > img {
+  width: 0.64rem;
+  margin: 0 auto;
+  display: block;
+  animation: jt 1000ms infinite step-end;
+}
+@keyframes jt {
+  0% {
+    transform: translateY(0rem);
+  }
+  20% {
+    transform: translateY(-0.33rem);
+  }
+  40% {
+    transform: translateY(-0.66rem);
+  }
+  60% {
+    transform: translateY(-0.99rem);
+  }
+  80% {
+    transform: translateY(-1.32rem);
+  }
+  100% {
+    transform: translateY(-1.65rem);
+  }
+}
+.gz {
+  width: 0.7rem;
+  height: 1rem;
+  display: block;
+  position: absolute;
+  bottom: 0.2rem;
+  left: 3.28rem;
+  z-index: 999;
+}
+.yidong01 {
+  animation: road01 7500ms linear forwards;
+}
+.yidong02 {
+  animation: road02 4400ms linear forwards;
+}
+.yidong03 {
+  animation: road03 4700ms linear forwards;
+}
+.yidong04 {
+  animation: road04 3400ms linear forwards;
+}
+@keyframes road01 {
+  0% {
+    bottom: 0.2rem;
+    left: 3.28rem;
+  }
+  23% {
+    bottom: 0.98rem;
+    left: 1.8rem;
+  }
+  40% {
+    bottom: 1.62rem;
+    left: 2.77rem;
+  }
+  78% {
+    bottom: 2.8rem;
+    left: 0.5rem;
+  }
+  100% {
+    bottom: 4.1rem;
+    left: 1.56rem;
+  }
+}
+@keyframes road02 {
+  0% {
+    bottom: 4.1rem;
+    left: 1.56rem;
+  }
+  15% {
+    bottom: 4.3rem;
+    left: 1.1rem;
+  }
+  100% {
+    bottom: 6.02rem;
+    left: 4.03rem;
+  }
+}
+@keyframes road03 {
+  0% {
+    bottom: 6.02rem;
+    left: 4.03rem;
+  }
+  35% {
+    bottom: 4.85rem;
+    left: 4.99rem;
+  }
+  65% {
+    bottom: 4.3rem;
+    left: 4.05rem;
+  }
+  100% {
+    bottom: 3.47rem;
+    left: 5.46rem;
+  }
+}
+@keyframes road04 {
+  0% {
+    bottom: 3.47rem;
+    left: 5.46rem;
+  }
+  35% {
+    bottom: 2.8rem;
+    left: 4.75rem;
+  }
+  65% {
+    bottom: 2.4rem;
+    left: 4.06rem;
+  }
+  100% {
+    bottom: 3.16rem;
+    left: 3.3rem;
+  }
+}
+.a {
+  transform: translateY(10rem);
+}
+.b {
+  animation: Aa 3000ms forwards;
+}
+@keyframes Aa {
+  0% {
+    transform: translateY(10rem);
+  }
+  80% {
+    transform: translateY(-0.3rem);
+  }
+  100% {
+    transform: translateY(0rem);
+  }
+}
+.min {
+  animation: min 2000ms  linear infinite;
+}
+@keyframes min {
+  0% {
+    transform: translateY(-0.1rem);
+  }
+  50% {
+    transform: translateY(0.1rem);
+  }
+  100% {
+    transform: translateY(-0.1rem);
+  }
+}
+.wy01 {
+  position: absolute;
+  bottom: 4.1rem;
+  left: 1.56rem;
+}
+.wy02 {
+  position: absolute;
+  bottom: 6.02rem;
+  left: 4.03rem;
+}
+.wy03 {
+  position: absolute;
+  bottom: 3.47rem;
+  left: 5.46rem;
+}
+.wy04 {
+  position: absolute;
+  bottom: 3.16rem;
+  left: 3.3rem;
+}
+@keyframes hua {
+  0% {
+    transform: translateY(10rem);
+  }
+  100% {
+    transform: translateY(0rem);
+  }
+}
+.hua {
+  animation: hua 2000ms forwards;
+}
+.quan01,
+.quan02,
+.quan03,
+.quan04 {
+  width: 1.2rem;
+  height: 1.2rem;
+  display: none;
+  border: 0.03rem solid white;
+  border-radius: 50%;
+  animation: quan 2s infinite;
+  position: absolute;
+  left: 1.3rem;
+  bottom: 3.6rem;
+  z-index: 999;
+}
+@keyframes quan {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(0.8);
+  }
+  60% {
+    transform: scale(0.6);
+  }
+  90% {
+    transform: scale(0.4);
+  }
+}
+.quan02 {
+  left: 3.75rem;
+  display: none;
+  bottom: 5.6rem;
+}
+.quan03 {
+  left: 5.15rem;
+  bottom: 3.05rem;
+  display: none;
+}
+.quan04 {
+  left: 3.05rem;
+  bottom: 2.7rem;
+  display: none;
+}
+.phon01 {
+  width: 100%;
+  height: 4.65rem;
+  background: url("../image/top.png") no-repeat;
+  background-size: cover;
+  display: none;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.phon01 > .mid01 {
+  position: absolute;
+  left: 1.4rem;
+  top: 1.1rem;
+}
+.phon01 > .mid01 > p {
+  font-size: 0.28rem;
+  color: white;
+}
+.phon01 > .foots {
+  font-size: 0.2rem;
+  color: white;
+  position: absolute;
+  left: 3.6rem;
+  top: 2.2rem;
+}
+.phon04 {
+  width: 100%;
+  height: 4.65rem;
+  background: url("../image/top.png") no-repeat;
+  background-size: cover;
+  display: none;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.phon04 > .mid01 {
+  position: absolute;
+  left: 1.4rem;
+  top: 1.1rem;
+}
+.phon04 > .mid01 > p {
+  font-size: 0.28rem;
+  color: white;
+}
+.phon04 > .foot02 {
+  position: absolute;
+  left: 1.4rem;
+  top: 2.35rem;
+}
+.phon04 > .foot02 > p {
+  font-size: 0.2rem;
+  color: white ;
+}
+.c {
+  animation: shen 9500ms linear forwards;
+}
+@keyframes shen {
+  0% {
+    background-position: 0 100%   ;
+  }
+  100% {
+    background-position: 0 0 ;
+  }
+}
+.e {
+  animation: xia 5000ms linear forwards;
+}
+@keyframes xia {
+  0% {
+    bottom: 0;
+  }
+  100% {
+    bottom: -10rem;
+  }
+}
+.down {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.end-zhu {
+  width: 1rem;
+  position: absolute;
+  left: 3.13rem;
+  bottom: -1.72rem;
+  z-index: 920;
+}
+.end-zhu > img {
+  width: 100%;
+  display: block;
+}
+.wz {
+  bottom: 3.2rem;
+}
+.ji {
+  animation: ji 5000ms linear forwards;
+}
+@keyframes ji {
+  0% {
+    transform: translateY(0rem);
+  }
+  5% {
+    transform: translateY(0.5rem);
+  }
+  100% {
+    transform: translateY(-0.5rem);
+  }
+}
+.xq01,
+.xq02,
+.xq03 {
+  width: 1.65rem;
+  height: 1.64rem;
+  position: absolute;
+  transform-origin: 0 1.64rem;
+  opacity: 0;
+  top: 5.85rem;
+  left: 0.45rem;
+}
+.xq01 > .xq,
+.xq02 > .xq,
+.xq03 > .xq {
+  width: 100%;
+  display: block;
+}
+.xq01 > .gzji,
+.xq02 > .gzji,
+.xq03 > .gzji {
+  width: 0.7rem;
+  height: 1rem;
+  display: block;
+  position: absolute;
+  top: -0.45rem;
+  left: 0.45rem;
+}
+.xq01 > .numbers,
+.xq02 > .numbers,
+.xq03 > .numbers {
+  width: 1.8rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  line-height: 0.45rem;
+  border: 0.01rem solid white;
+  border-radius: 0.08rem;
+  position: absolute;
+  left: -0.1rem;
+  top: 0.95rem;
+  font-size: 0.24rem;
+  color: white;
+}
+.xq01 {
+  transform: rotate(-60deg);
+}
+.xq02 {
+  width: 2.1rem;
+  height: 2.08rem;
+  left: 2.57rem;
+  top: 3.9rem;
+  transform: scale(0.1);
+}
+.xq02 > .gzji {
+  top: -0.4rem;
+  left: 0.72rem;
+}
+.xq02 > .numbers {
+  left: 0.16rem;
+  top: 1.05rem;
+}
+.xq03 {
+  width: 1.82rem;
+  height: 1.82rem;
+  left: 5.2rem;
+  top: 5.15rem;
+  transform-origin: 1.82rem 1.82rem;
+  transform: rotate(60deg);
+}
+.xq03 > .gzji {
+  top: -0.4rem;
+  left: 0.6rem;
+}
+.xq03 > .numbers {
+  left: 0.03rem;
+  top: 1.12rem;
+}
+.xin {
+  animation: xq 2000ms forwards;
+}
+@keyframes xq {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+  }
+}
+.bill {
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  overflow: hidden;
+  padding: 1rem;
+  top: 0;
+  left: 0;
+}
+.bill > p {
+  font-size: 0.3rem;
+  color: white;
+}
+.bill > p > span {
+  font-size: 0.5rem;
+}
+.bill > .tips {
+  color: white;
+  font-size: 0.24rem;
+  margin-top: 0.6rem;
+}
+.bill > .view {
+  width: 2rem;
+  height: 0.6rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  border: 0.01rem solid white;
+  border-radius: 0.35rem;
+  position: absolute;
+  left: 4.6rem;
+  top: 0.9rem;
+  font-size: 0.26rem;
+}
+.bill > .view > img {
+  width: 0.2rem;
+  height: 0.2rem;
+  margin: 0 0.2rem;
+}
+.share,
+.receive {
+  width: 2rem;
+  opacity: 0;
+  line-height: 0.6rem;
+  color: white;
+  border: 0.01rem solid white;
+  border-radius: 0.35rem;
+  position: absolute;
+  text-align: center;
+  font-size: 0.26rem;
+}
+.share {
+  bottom: 0.6rem;
+  left: 0.7rem;
+}
+.receive {
+  bottom: 0.6rem;
+  left: 4.5rem;
+}
+.ph {
+  display: block;
+}
+.ps {
+  display: none;
+}
